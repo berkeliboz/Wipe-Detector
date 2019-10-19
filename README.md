@@ -1,8 +1,7 @@
 ﻿# WIPE DETECTOR
 This application finds cuts and wipes in video files.
 
-Approach used in this project is constructing “spatio-temporal” image, an image which contains video content for each frame along the ordinate axis, versus time
-along the abscissa. A simple version of such a construction consists of copying a column (or row), or weighted average of a few, directly into the STI.
+This project is based on constructing “spatio-temporal” image which contains video content for each frame along the ordinate axis, versus time along the abscissa. A simple version of constructing the image consists of copying a column (or row), or weighted average of a few, directly into the STI(Spatio-Temporal Image).
 
 ## STI by Copying Pixels
 
